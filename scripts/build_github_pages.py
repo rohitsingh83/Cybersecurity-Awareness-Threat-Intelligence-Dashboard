@@ -29,6 +29,7 @@ def main() -> None:
     html = html.replace('href="/css/styles.css"', 'href="./assets/styles.css"')
     html = html.replace('<script src="/js/app.js" defer></script>', '<script src="./assets/static-adapter.js" defer></script>\n  <script src="./assets/app.js" defer></script>')
     (SITE / "index.html").write_text(html, encoding="utf-8")
+    (SITE / ".nojekyll").write_text("# Disable Jekyll\n", encoding="utf-8")
 
     copy_file(ROOT / "frontend" / "css" / "styles.css", ASSETS / "styles.css")
     copy_file(ROOT / "frontend" / "js" / "app.js", ASSETS / "app.js")
