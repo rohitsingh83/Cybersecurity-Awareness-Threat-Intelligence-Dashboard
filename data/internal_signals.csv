@@ -1,0 +1,5 @@
+signal_id,observed_at,asset_id,event_type,indicator_value,analyst_correlation_id,note,label
+SIG-DEMO-001,2026-09-18T09:12:00Z,LAB-WEB-01,MAIL_GATEWAY_SIMULATION,login-check.invalid,DEMO-CORR-001,Synthetic mail-gateway training event; no email was delivered.,SYNTHETIC / DEMO ONLY
+SIG-DEMO-002,2026-09-18T09:13:00Z,LAB-WEB-01,DNS_LOG_SIMULATION,198.51.100.25,DEMO-CORR-001,Reserved documentation address in a local sample record; no DNS or network request was made.,SYNTHETIC / DEMO ONLY
+SIG-DEMO-003,2026-09-18T09:14:00Z,LAB-TEST-03,FILE_HASH_SIMULATION,9811d1173e583bb2376326fa7e8b54c0767fa3e1be397394a2908865ad473e28,DEMO-CORR-001,Hash-shaped classroom string only; there is no associated file.,SYNTHETIC / DEMO ONLY
+SIG-DEMO-004,2026-09-20T16:30:00Z,LAB-DB-02,AUTHENTICATION_TRAINING_EVENT,training-user@example.edu.invalid,DEMO-CORR-002,Anonymized synthetic awareness practice event; no login was attempted.,SYNTHETIC / DEMO ONLY

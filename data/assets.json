@@ -1,0 +1,41 @@
+[
+  {
+    "asset_id": "LAB-WEB-01",
+    "display_name": "Synthetic student portal (demo)",
+    "environment": "CLASSROOM-LAB",
+    "criticality": 82,
+    "internet_exposed_demo": true,
+    "email_domain": "example.edu.invalid",
+    "software_list": [
+      {"name": "Web Framework", "version": "demo"},
+      {"name": "Identity Service", "version": "demo"}
+    ],
+    "label": "SYNTHETIC / DEMO ONLY"
+  },
+  {
+    "asset_id": "LAB-DB-02",
+    "display_name": "Isolated synthetic database (demo)",
+    "environment": "CLASSROOM-LAB",
+    "criticality": 88,
+    "internet_exposed_demo": false,
+    "email_domain": "example.edu.invalid",
+    "software_list": [
+      {"name": "Database", "version": "demo"},
+      {"name": "Backup Platform", "version": "demo"}
+    ],
+    "label": "SYNTHETIC / DEMO ONLY"
+  },
+  {
+    "asset_id": "LAB-TEST-03",
+    "display_name": "Disposable test workstation (demo)",
+    "environment": "CLASSROOM-LAB",
+    "criticality": 20,
+    "internet_exposed_demo": false,
+    "email_domain": "example.edu.invalid",
+    "software_list": [
+      {"name": "Test Environment", "version": "demo"},
+      {"name": "Developer Tool", "version": "demo"}
+    ],
+    "label": "SYNTHETIC / DEMO ONLY"
+  }
+]

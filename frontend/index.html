@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b13">
+  <meta name="description" content="Offline-first synthetic cyber threat intelligence and security awareness dashboard.">
+  <title>Signal Atlas | Defensive Threat Intelligence</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview" aria-label="Signal Atlas home" data-view="overview">
+        <span class="brand-glyph"><i></i><i></i><i></i><b></b></span>
+        <span class="brand-copy"><strong>SIGNAL<span>ATLAS</span></strong><small>DEFENSIVE INTELLIGENCE</small></span>
+      </a>
+      <div class="side-caption">OPERATIONS</div>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <button class="nav-item active" data-view="overview"><span class="nav-icon">◫</span><span>Command center</span><span class="nav-live"></span></button>
+        <button class="nav-item" data-view="threats"><span class="nav-icon">⌁</span><span>Threat stream</span><span class="nav-count" id="nav-threat-count">—</span></button>
+        <button class="nav-item" data-view="ioc"><span class="nav-icon">⌕</span><span>IOC lookup</span></button>
+        <button class="nav-item" data-view="vulnerabilities"><span class="nav-icon">◈</span><span>Vulnerability lab</span></button>
+        <button class="nav-item" data-view="alerts"><span class="nav-icon">⚑</span><span>Alert queue</span><span class="nav-count alert-count" id="nav-alert-count">—</span></button>
+        <button class="nav-item" data-view="attack"><span class="nav-icon">⬡</span><span>ATT&CK lens</span></button>
+        <div class="side-caption side-caption-gap">HUMAN DEFENSE</div>
+        <button class="nav-item" data-view="awareness"><span class="nav-icon">✳</span><span>Awareness studio</span></button>
+        <button class="nav-item" data-view="quiz"><span class="nav-icon">◉</span><span>Knowledge check</span></button>
+        <button class="nav-item" data-view="executive"><span class="nav-icon">◌</span><span>Executive brief</span></button>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="side-system-card">
+        <div class="side-system-top"><span class="pulse-dot"></span><span>LOCAL SANDBOX</span><span class="demo-tag">DEMO</span></div>
+        <div class="side-system-title">No outbound indicator traffic</div>
+        <div class="side-system-caption">All records are synthetic · network lookups disabled</div>
+        <div class="mini-spectrum"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <button class="nav-item nav-settings" data-view="guide"><span class="nav-icon">⚙</span><span>System & API</span></button>
+      <div class="sidebar-foot"><span>BUILD 01.06</span><span>HYD · LAB</span></div>
+    </aside>
+
+    <main class="main-shell">
+      <header class="topbar">
+        <div class="breadcrumb"><span class="crumb-root">ATLAS</span><span class="crumb-slash">/</span><span id="view-kicker">COMMAND CENTER</span></div>
+        <div class="topbar-tools">
+          <label class="quick-search"><span>⌕</span><input id="global-search" type="search" placeholder="Quick find · IP, domain, hash, CVE" autocomplete="off"><kbd>↵</kbd></label>
+          <div class="top-divider"></div>
+          <div class="connection-state"><span class="pulse-dot"></span><span>LOCAL FEED</span></div>
+          <button class="icon-button refresh-button" id="refresh-button" title="Refresh local data" aria-label="Refresh local data">↻</button>
+          <button class="avatar-button" data-view="guide" title="System & API settings">SA</button>
+        </div>
+      </header>
+      <div class="content-wrap">
+        <div id="view-root" aria-live="polite"></div>
+        <footer class="page-footer"><span>Signal Atlas <b>·</b> classroom-safe threat intelligence</span><span>OBSERVATION ≠ INCIDENT <b>·</b> INDICATOR MATCH ≠ COMPROMISE</span></footer>
+      </div>
+    </main>
+  </div>
+  <div id="overlay" class="overlay" hidden>
+    <div class="overlay-scrim" data-close-drawer></div>
+    <aside id="detail-panel" class="detail-panel" role="dialog" aria-modal="true" aria-label="Threat investigation details"></aside>
+  </div>
+  <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

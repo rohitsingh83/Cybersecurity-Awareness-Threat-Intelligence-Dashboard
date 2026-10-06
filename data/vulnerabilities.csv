@@ -1,0 +1,25 @@
+cve_id,product_category,severity,cvss_score,published_date,patch_available,exploitation_status_demo,description,asset_criticality,exposure_score,business_context
+CVE-2099-10001,Endpoint OS,CRITICAL,9.4,2026-10-04,YES,YES,"Synthetic endpoint os vulnerability-awareness scenario 1; fictional, non-actionable classroom data.",82,25,88
+CVE-2099-10002,Web Framework,HIGH,8.1,2026-10-02,YES,NO,"Synthetic web framework vulnerability-awareness scenario 2; fictional, non-actionable classroom data.",95,95,92
+CVE-2099-10003,Identity Service,HIGH,8.8,2026-09-30,YES,YES,"Synthetic identity service vulnerability-awareness scenario 3; fictional, non-actionable classroom data.",98,90,96
+CVE-2099-10004,Browser,HIGH,7.5,2026-09-28,NO,YES,"Synthetic browser vulnerability-awareness scenario 4; fictional, non-actionable classroom data.",70,72,75
+CVE-2099-10005,Database,CRITICAL,9.1,2026-09-26,YES,NO,"Synthetic database vulnerability-awareness scenario 5; fictional, non-actionable classroom data.",92,35,93
+CVE-2099-10006,VPN Gateway,HIGH,8.6,2026-09-24,YES,YES,"Synthetic vpn gateway vulnerability-awareness scenario 6; fictional, non-actionable classroom data.",96,100,94
+CVE-2099-10007,Mobile OS,MEDIUM,6.7,2026-09-22,YES,YES,"Synthetic mobile os vulnerability-awareness scenario 7; fictional, non-actionable classroom data.",65,55,68
+CVE-2099-10008,Cloud Control Plane,CRITICAL,9.8,2026-09-20,NO,NO,"Synthetic cloud control plane vulnerability-awareness scenario 8; fictional, non-actionable classroom data.",100,85,100
+CVE-2099-10009,Developer Tool,HIGH,7.2,2026-09-18,YES,NO,"Synthetic developer tool vulnerability-awareness scenario 9; fictional, non-actionable classroom data.",50,30,58
+CVE-2099-10010,Email Platform,HIGH,8.0,2026-09-16,YES,YES,"Synthetic email platform vulnerability-awareness scenario 10; fictional, non-actionable classroom data.",88,80,90
+CVE-2099-10011,Container Runtime,CRITICAL,9.0,2026-09-14,YES,NO,"Synthetic container runtime vulnerability-awareness scenario 11; fictional, non-actionable classroom data.",90,60,88
+CVE-2099-10012,Library,MEDIUM,5.9,2026-09-12,NO,NO,"Synthetic library vulnerability-awareness scenario 12; fictional, non-actionable classroom data.",42,25,50
+CVE-2099-10013,File Service,HIGH,8.3,2026-09-10,YES,YES,"Synthetic file service vulnerability-awareness scenario 13; fictional, non-actionable classroom data.",78,68,82
+CVE-2099-10014,Network Appliance,HIGH,7.8,2026-09-08,YES,NO,"Synthetic network appliance vulnerability-awareness scenario 14; fictional, non-actionable classroom data.",88,82,86
+CVE-2099-10015,Backup Platform,CRITICAL,9.2,2026-09-06,YES,YES,"Synthetic backup platform vulnerability-awareness scenario 15; fictional, non-actionable classroom data.",95,30,98
+CVE-2099-10016,Student Portal,MEDIUM,6.4,2026-09-04,NO,NO,"Synthetic student portal vulnerability-awareness scenario 16; fictional, non-actionable classroom data.",68,75,65
+CVE-2099-10017,Monitoring Agent,HIGH,7.1,2026-09-02,YES,NO,"Synthetic monitoring agent vulnerability-awareness scenario 17; fictional, non-actionable classroom data.",54,35,61
+CVE-2099-10018,Cloud Storage,HIGH,8.7,2026-08-31,YES,YES,"Synthetic cloud storage vulnerability-awareness scenario 18; fictional, non-actionable classroom data.",90,88,94
+CVE-2099-10019,Office Suite,MEDIUM,6.2,2026-08-29,YES,NO,"Synthetic office suite vulnerability-awareness scenario 19; fictional, non-actionable classroom data.",60,40,63
+CVE-2099-10020,Authentication Library,CRITICAL,9.3,2026-08-27,NO,NO,"Synthetic authentication library vulnerability-awareness scenario 20; fictional, non-actionable classroom data.",95,70,96
+CVE-2099-10021,Test Environment,CRITICAL,9.6,2026-08-25,YES,NO,"Synthetic test environment vulnerability-awareness scenario 21; fictional, non-actionable classroom data.",20,5,18
+CVE-2099-10022,Legacy Server,HIGH,8.4,2026-08-23,YES,YES,"Synthetic legacy server vulnerability-awareness scenario 22; fictional, non-actionable classroom data.",45,18,72
+CVE-2099-10023,API Gateway,HIGH,7.9,2026-08-21,YES,NO,"Synthetic api gateway vulnerability-awareness scenario 23; fictional, non-actionable classroom data.",92,94,86
+CVE-2099-10024,Workstation Utility,MEDIUM,4.8,2026-08-19,NO,YES,"Synthetic workstation utility vulnerability-awareness scenario 24; fictional, non-actionable classroom data.",35,10,38
